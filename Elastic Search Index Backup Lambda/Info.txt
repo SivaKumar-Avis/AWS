@@ -1,0 +1,7 @@
+This py file is used on the AWS lambda.
+The lambda runs 3 times a day to create snapshot of the elastic search and store it in S3 snapshot repository.
+At first time, it initiates the snapshot.
+The next two times it checks for the completion.
+
+
+Please refer code!!
